@@ -57,13 +57,13 @@ Linux
     - `TIMEOUT` — таймаут в секундах для выполнения запросов. По умолчанию: `10`.
 
     #### Пример:
-        ```bash
+        `
         RABBITMQ_HOST=localhost
         RABBITMQ_QUEUE=urls
         RABBITMQ_USER=guest
         RABBITMQ_PASS=guest
         TIMEOUT=10
-        ```
+        `
     
 8. Запуск Producer
     ```
